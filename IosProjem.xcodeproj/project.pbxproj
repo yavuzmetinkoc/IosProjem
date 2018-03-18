@@ -13,6 +13,8 @@
 		BCFBF005205EE71400211CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFBF004205EE71400211CC6 /* Assets.xcassets */; };
 		BCFBF008205EE71400211CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFBF006205EE71400211CC6 /* LaunchScreen.storyboard */; };
 		BCFBF010205EE72500211CC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCFBF00F205EE72500211CC6 /* GoogleService-Info.plist */; };
+		BCFBF012205EE98900211CC6 /* GirisYapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBF011205EE98900211CC6 /* GirisYapViewController.swift */; };
+		BCFBF014205EE99700211CC6 /* KayitOlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFBF013205EE99700211CC6 /* KayitOlViewController.swift */; };
 		C4ADC6C7D30D5C0B78652AFC /* Pods_IosProjem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F457379B00D110A71955652 /* Pods_IosProjem.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		BCFBF007205EE71400211CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCFBF009205EE71500211CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFBF00F205EE72500211CC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCFBF011205EE98900211CC6 /* GirisYapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisYapViewController.swift; sourceTree = "<group>"; };
+		BCFBF013205EE99700211CC6 /* KayitOlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitOlViewController.swift; sourceTree = "<group>"; };
 		E467118B78D0689022795573 /* Pods-IosProjem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosProjem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IosProjem/Pods-IosProjem.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +83,8 @@
 				BCFBF006205EE71400211CC6 /* LaunchScreen.storyboard */,
 				BCFBF009205EE71500211CC6 /* Info.plist */,
 				BCFBF00F205EE72500211CC6 /* GoogleService-Info.plist */,
+				BCFBF011205EE98900211CC6 /* GirisYapViewController.swift */,
+				BCFBF013205EE99700211CC6 /* KayitOlViewController.swift */,
 			);
 			path = IosProjem;
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 			files = (
 				BCFBF000205EE71400211CC6 /* ViewController.swift in Sources */,
 				BCFBEFFE205EE71400211CC6 /* AppDelegate.swift in Sources */,
+				BCFBF014205EE99700211CC6 /* KayitOlViewController.swift in Sources */,
+				BCFBF012205EE98900211CC6 /* GirisYapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
