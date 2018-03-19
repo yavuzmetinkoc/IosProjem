@@ -25,11 +25,18 @@ class KayitOlViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func BtnKayitol(_ sender: Any) {
-        Auth.auth().createUser(withEmail: EtKayitEmail.text!, password: EtKayitSifre.text!) { (user, error) in
-            ///asdsad
+    @IBAction func BtnKayitOl(_ sender: UIButton) {
+        if EtKayitEmail.text != "" && EtKayitSifre.text != "" {
+            Auth.auth().createUser(withEmail: EtKayitEmail.text!, password: EtKayitSifre.text!) { (user, error) in
+                ///asdsad
+            }
+        } else {
+            let KayitBos=UIAlertController(title: "Hata", message: "Verieri Boş Geçmeyiniz", preferredStyle: UIAlertControllerStyle.alert)
+            KayitBos.addAction(UIAlertAction(title: "Tamam", style: UIAlertActionStyle.default, handler: nil))
+            self.present(KayitBos, animated: true, completion: nil)
         }
     }
+    
     
     /*
     // MARK: - Navigation
