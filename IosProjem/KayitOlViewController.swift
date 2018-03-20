@@ -33,6 +33,7 @@ class KayitOlViewController: UIViewController {
         if EtKayitEmail.text != "" && EtKayitSifre.text != "" {
             Auth.auth().createUser(withEmail: EtKayitEmail.text!, password: EtKayitSifre.text!) { (user, error) in
                 ///asdsadasdasd
+                self.performSegue(withIdentifier: "gotoHome", sender: self)
             }
         } else {
             let KayitBos=UIAlertController(title: "Hata", message: "Verieri Boş Geçmeyiniz", preferredStyle: UIAlertControllerStyle.alert)
