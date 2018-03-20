@@ -72,12 +72,21 @@
                                 <rect key="frame" x="157" y="376" width="61" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Giriş Yap"/>
+                                <connections>
+                                    <action selector="BtnGiris:" destination="zNC-hY-WkR" eventType="touchUpInside" id="Oh9-2b-ID7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TOP-sD-gJu"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Lkq-dT-zx3"/>
+                    <navigationItem key="navigationItem" id="Lkq-dT-zx3">
+                        <barButtonItem key="leftBarButtonItem" title="Geri" id="4eO-Ba-Dh2">
+                            <connections>
+                                <action selector="BtnGeri:" destination="zNC-hY-WkR" id="Sbo-ZX-mjI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u5e-Ol-XcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -117,7 +126,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Occ-qF-dNw"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jyI-xd-YDk"/>
+                    <navigationItem key="navigationItem" id="jyI-xd-YDk">
+                        <barButtonItem key="leftBarButtonItem" title="Geri" id="LTh-zd-1lI">
+                            <connections>
+                                <action selector="BtnGeri:" destination="2bS-Ws-NR9" id="W5b-s5-HWe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="EtKayitEmail" destination="HcX-40-nib" id="7q8-CY-wXY"/>
                         <outlet property="EtKayitSifre" destination="MYh-2A-aNT" id="FnQ-7H-SFe"/>

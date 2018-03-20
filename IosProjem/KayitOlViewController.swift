@@ -25,6 +25,10 @@ class KayitOlViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func BtnGeri(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func BtnKayitOl(_ sender: UIButton) {
         if EtKayitEmail.text != "" && EtKayitSifre.text != "" {
             Auth.auth().createUser(withEmail: EtKayitEmail.text!, password: EtKayitSifre.text!) { (user, error) in

@@ -23,7 +23,13 @@ class GirisYapViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func BtnGeri(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+    @IBAction func BtnGiris(_ sender: UIButton) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 
