@@ -32,7 +32,7 @@ class KayitOlViewController: UIViewController {
     @IBAction func BtnKayitOl(_ sender: UIButton) {
         if EtKayitEmail.text != "" && EtKayitSifre.text != "" {
             Auth.auth().createUser(withEmail: EtKayitEmail.text!, password: EtKayitSifre.text!) { (user, error) in
-                ///asdsad
+                ///asdsadasdasd
             }
         } else {
             let KayitBos=UIAlertController(title: "Hata", message: "Verieri Boş Geçmeyiniz", preferredStyle: UIAlertControllerStyle.alert)
